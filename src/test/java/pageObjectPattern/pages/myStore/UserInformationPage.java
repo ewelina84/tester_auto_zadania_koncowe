@@ -18,7 +18,7 @@ public class UserInformationPage {
     @FindBy(name = "password")
     private WebElement passwordInput;
 
-    @FindBy(xpath = "//*[@id=\"customer-form\"]/footer/button")
+    @FindBy(xpath = "//*[@id=\"customer-form\"]/address-form/footer")
     private WebElement saveButton;
 
     @FindBy(xpath = "//*[@data-alert='success']//li")
